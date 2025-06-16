@@ -4,7 +4,6 @@ This project implements a step-by-step pipeline to seamlessly integrate a person
 
 ## Table of Contents
 - [Project Objectives](#project-objectives)
-- [Features](#features)
 - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
