@@ -48,6 +48,7 @@ uv pip install git+https://github.com/facebookresearch/segment-anything.git
 - Model: vit_h
 - [Download Link](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)
 - Place the downloaded file in the `models/` directory
+- *Note: The model is already downloaded in the `models/` directory and requires 12-16GB VRAM to run. Download a smaller model if you don't have enough VRAM.*
 
 ## Project Structure
 
