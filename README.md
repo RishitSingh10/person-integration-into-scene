@@ -20,7 +20,7 @@ This project implements a step-by-step pipeline to seamlessly integrate a person
 
 #### Step 1: Capture a High-Quality Image
 - Use any high-resolution front-view image of a person with even lighting.
-- Place the image in `data/raw/person.jpg`.
+- Place the image in `data/raw/person.jpeg`.
 
 #### Step 2: Remove the Background
 
