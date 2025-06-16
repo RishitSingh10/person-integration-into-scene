@@ -78,9 +78,7 @@ def remove_background_sam(input_img):
     print(f"SAM: Background removed and saved to: {output_path}")
 
 if __name__ == '__main__':
-    # Add 'sam' as a model choice
     all_models = ['u2net', 'u2netp', 'u2net_human_seg', 'isnet-general-use', 'sam']
-
     parser = argparse.ArgumentParser(description='Remove background from an image.')
     parser.add_argument('input', help='Name of the input image file in the data/raw directory')
     parser.add_argument('--model', choices=all_models, default='u2net', help='Model to use for background removal')
