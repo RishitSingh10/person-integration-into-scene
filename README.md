@@ -32,12 +32,6 @@ cd seamless-person-integration
 2. **Set up the environment using [uv](https://github.com/astral-sh/uv):**
 If you don't have `uv` installed, follow the [official instructions](https://github.com/astral-sh/uv#installation).
 
-Create and activate a virtual environment:
-```bash
-uv venv .venv
-source .venv/bin/activate
-```
-
 3. **Install dependencies:**
 ```bash
 uv sync
@@ -48,7 +42,7 @@ uv pip install git+https://github.com/facebookresearch/segment-anything.git
 - Model: vit_h
 - [Download Link](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)
 - Place the downloaded file in the `models/` directory
-- *Note: The model is requires 12-16GB VRAM to run. Download a smaller model if you don't have enough VRAM.*
+- *Note: The model is requires 12-16GB VRAM to run. Download a smaller model if you don't have enough VRAM*
 
 ## Project Structure
 
