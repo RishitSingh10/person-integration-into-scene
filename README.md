@@ -78,8 +78,10 @@ git clone https://github.com/yujheliu/BiRefNet.git
 │   └── sam_vit_h_4b8939.pth
 ├── scripts/
 │   └── remove_bg.py       # Main background removal script
-│   ├── birefnet_infer.py  # BiRefNet utility
+├── utils/
+|   ├── birefnet_infer.py  # BiRefNet utility
 │   └── person_detector.py # DETR-based person detection
+│   └── heic_to_jpg.py  
 ├── BiRefNet/ # Module to use for BiRefNet
 ├── .gitignore
 ├── .python-version
