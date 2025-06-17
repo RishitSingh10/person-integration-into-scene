@@ -12,3 +12,4 @@ wheels/
 # Models
 models/
 *.pth
+BiRefNet/
